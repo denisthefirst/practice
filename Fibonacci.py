@@ -1,6 +1,6 @@
 num = int(input("Enter the number of the numbers in sequence to generate: "))
 
-list = [1]
+list = []
 
 def fibonacci():
     a = 0
@@ -9,7 +9,7 @@ def fibonacci():
         c = b
         b = a + b
         a = c
-        list.append(b)
+        list.append(a)
 
 fibonacci()
 print(list)
